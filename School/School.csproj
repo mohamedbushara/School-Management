@@ -185,7 +185,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Settings\Models\Audit\Class1.cs" />
+    <Compile Include="Settings\Models\Audit\AuditExtension.cs" />
     <Compile Include="Settings\Models\City.cs" />
     <Compile Include="Settings\Models\State.cs" />
     <Compile Include="Settings\Models\Students.cs" />
@@ -653,8 +653,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\ManagementSchool\Models\" />
-    <Folder Include="Areas\Students\Models\" />
+    <Folder Include="Areas\ManagementSchool\ViewModels\" />
+    <Folder Include="Areas\Students\ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
