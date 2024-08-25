@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from edumin.w3itexpert.com/Edumin/Index2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Aug 2024 13:27:16 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="dexignlabs">
+    <meta name="robots" content="index, follow">
+    <style>
+
+        @@font-face {
+            font-family: 'BoutrosNewsH1-Bold';
+            src: url('../../fonts/BoutrosNewsH1-Bold.ttf') format('truetype');
+        }
+    </style>
+    <meta name="keywords" content="admin, dashboard, admin dashboard, admin template, ASP.NET Core MVC, template, admin panel, administration, analytics, bootstrap, modern, responsive, creative, retina ready, modern Dashboard responsive dashboard, responsive template, user experience, user interface, Bootstrap Dashboard, Analytics Dashboard, Customizable Admin Panel, EduMin template, ui kit, web app, EduMin, School Management,Dashboard Template, academy, course, courses, e-learning, education, learning, learning management system, lms, school, student, teacher">
+
+    <meta name="description" content="EduMin - Empower your educational institution with the all-in-one Education Admin ASP.NET Core MVC Dashboard Template. Streamline administrative tasks, manage courses, track student performance, and gain valuable insights with ease. Elevate your education management experience with a modern, responsive, and feature-packed solution. Explore EduMin now for a smarter, more efficient approach to education administration.">
+
+    <meta property="og:title" content="EduMin - Education Admin ASP.NET Core MVC Dashboard Template | dexignlabs">
+    <meta property="og:description" content="EduMin - Empower your educational institution with the all-in-one Education Admin ASP.NET Core MVC Dashboard Template. Streamline administrative tasks, manage courses, track student performance, and gain valuable insights with ease. Elevate your education management experience with a modern, responsive, and feature-packed solution. Explore EduMin now for a smarter, more efficient approach to education administration.">
+
+    <meta property="og:image" content="../../products.w3itexpert.com/images/edumin_ogimage.png">
+
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="twitter:title" content="EduMin - Education Admin ASP.NET Core MVC Dashboard Template | dexignlabs">
+    <meta name="twitter:description" content="EduMin - Empower your educational institution with the all-in-one Education Admin ASP.NET Core MVC Dashboard Template. Streamline administrative tasks, manage courses, track student performance, and gain valuable insights with ease. Elevate your education management experience with a modern, responsive, and feature-packed solution. Explore EduMin now for a smarter, more efficient approach to education administration.">
+
+    <meta name="twitter:image" content="../../products.w3itexpert.com/images/edumin_ogimage.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EduMin - Education ASP.NET Core MVC Admin Dashboard Template | dexignlabs</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="~/edumin/images/favicon.png">
+
+    <link href="~/Content/bootstrap-rtl.min.css" rel="stylesheet" />
+
+    <link href="~/edumin/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <!--**********************************
+        Style script start
+    ***********************************-->
+    <!--**********************************
+        Style script end
+    ***********************************-->
+    <!-- Style css -->
+    <link href="~/edumin/css/style.css" rel="stylesheet" />
+
+</head>
+ 
+<body>
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        @*   ***************  header ****************@
+
+        @Html.Partial("~/Areas/ManagementSchool/Views/Shared/Header/Admin_HeaderPartial.cshtml")
+
+        @*   ***************  Sidebar ****************@
+
+        @Html.Partial("~/Areas/ManagementSchool/Views/Shared/Sidebar/_SidebarPartial_Admin.cshtml")
+ 
+        @*   ***************  Content body ****************@
+
+        <div class="content-body">
+            <!-- row -->
+            <div class="container-fluid">
+
+                @RenderBody()
+            </div>
+        </div>
+
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright © Designed &amp; Developed by <a href="http://dexignlab.com/" target="_blank">DexignLab</a> 2024</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+  
+    <script src="~/edumin/vendor/global/global.min.js"></script>
+    <script src="~/edumin/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+    <!-- Chart Morris plugin files -->
+    <script src="~/edumin/vendor/raphael/raphael.min.js"></script>
+    <script src="~/edumin/vendor/morris/morris.min.js"></script>
+
+    <!-- Chart piety plugin files -->
+    <script src="~/edumin/vendor/peity/jquery.peity.min.js"></script>
+
+    <!-- Svganimation scripts -->
+    <script src="~/edumin/vendor/svganimation/vivus.min.js"></script>
+    <script src="~/edumin/vendor/svganimation/svg.animation.js"></script>
+    <!-- Demo scripts -->
+    <script src="~/edumin/js/dashboard/dashboard-2.js"></script>
+
+    <script src="~/edumin/js/custom.min.js"></script>
+    <script src="~/edumin/js/dlabnav-init.js"></script>
+    <script src="~/edumin/js/demo.js"></script>
+    <script src="~/edumin/js/styleSwitcher.js"></script>
+     
+</body>
+
+<!-- Mirrored from edumin.w3itexpert.com/Edumin/Index2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Aug 2024 13:27:19 GMT -->
+</html>

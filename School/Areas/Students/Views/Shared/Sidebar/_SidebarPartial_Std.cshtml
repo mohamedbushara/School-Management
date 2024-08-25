@@ -1,0 +1,163 @@
+﻿<!--**********************************
+
+    Sidebar start
+***********************************-->
+
+<div class="dlabnav">
+    <div class="dlabnav-scroll">
+        <ul class="metismenu" id="menu">
+            <li class="nav-label first"> القائمة الرئيسية  </li>
+
+            @*<------------------------------ 1 ------------------------------!>*@
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="fa ti-flag-alt-2"></i>
+                    <span class="nav-text">   الاعلانات</span>
+                    <span class="badge badge-danger badge-xs ms-2">NEW</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li>
+                        @Html.ActionLink("مشاهدة الكل", "Index", "Advertisement", new { area = "Students" }, null)
+
+                    </li>
+                  
+                </ul>
+            </li>
+
+            @*<------------------------------ 2 ------------------------------!>*@
+
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="la la-th-list"></i>
+                    <span class="nav-text">التقويم الدراسي </span>
+                </a>
+                <ul aria-expanded="false">
+
+                    @Html.ActionLink(" مشاهدة ", "Index", "AcademicCalendar", new { area = "Students" }, null)
+
+                </ul>
+            </li>
+
+            @*<------------------------------ 3 ------------------------------!>*@
+
+            <li class="nav-label"></li>
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="la la-th-list"></i>
+                    <span class="nav-text">   جدول الحصص</span>
+                </a>
+                <ul aria-expanded="false">
+                    @Html.ActionLink("  مشاهدة  ", "Index", "ClassSchedule", new { area = "Students" }, null)
+
+                </ul>
+            </li>
+
+            @*<------------------------------ 4 ------------------------------!>*@
+
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="la la-calendar"></i>
+                    <span class="nav-text"> الايام الدراسية</span>
+                </a>
+                <ul aria-expanded="false">
+                
+                    <li>
+                        @Html.ActionLink(" ابدا يوم جديد ", "Index", "School_Day", new { area = "Students" }, null)
+
+                    </li>
+
+                </ul>
+            </li>
+
+            @*<------------------------------ 5 ------------------------------!>*@
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+
+                    <i class="la la-file-text"></i>
+
+                    <span class="nav-text">   الواجبات الدراسية </span>
+                </a>
+                <ul aria-expanded="false">
+                    @Html.ActionLink("   حل الواجب   ", "Index", "Assignments", new { area = "Students" }, null)
+
+                </ul>
+            </li>
+
+            <li class="nav-label"></li>
+
+            @*<------------------------------ 6 ------------------------------!>*@
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="la la-users"></i>
+                    <span class="nav-text"> الفصول الافتراضية </span>
+                </a>
+                <ul aria-expanded="false">
+                    <li>
+                        @Html.ActionLink(" ابداء ", "Index", "VirtualClassroom", new { area = "Students" }, null)
+                      
+                    </li>
+
+                </ul>
+            </li>
+
+            @*<------------------------------ 7 ------------------------------!>*@
+
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="la la-plus-square-o"></i>
+                    <span class="nav-text"> مكتبة  اكترونية</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li>
+                        @Html.ActionLink("  المواد    المقررة  Pdf ", "Pdf_Index", "Library", new { area = "Students" }, null)
+                       
+                    </li>
+                    <li>
+                        @Html.ActionLink(" المواد  المقررة    Video", "Video_Index", "Library", new { area = "Students" }, null)
+
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-label"></li>
+
+            @*<------------------------------ 8 ------------------------------!>*@
+
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="la la-desktop"></i>
+                    <span class="nav-text">   الامتحانات </span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="AboutCourses.html"> ابدا امتحان  </a></li>
+
+                </ul>
+            </li>
+
+            @*<------------------------------ 9 ------------------------------!>*@
+
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="la la-graduation-cap"></i>
+                    <span class="nav-text">   النتائج </span>
+                </a>
+                <ul aria-expanded="false">
+                    <li>
+                        @Html.ActionLink("  مشاهدة النتائج  ", "Index", "Results", new { area = "Students" }, null)
+                    
+                    </li>
+
+                </ul>
+            </li>
+
+        </ul>
+
+        <div class="copyright">
+            @*<p>Edumin Saas Admin © 2024 All Rights Reserved</p>
+            <p class="fs-12">Made with <span class="heart"></span> by DexignLab</p>*@
+        </div>
+    </div>
+</div>
+<!--**********************************
+    Sidebar end
+***********************************-->

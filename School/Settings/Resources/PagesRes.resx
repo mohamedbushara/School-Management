@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllTrucksSuperviers" xml:space="preserve">
+    <value>AllTrucksSuperviers</value>
+  </data>
+  <data name="AreasTrucks" xml:space="preserve">
+    <value>Areas</value>
+  </data>
+  <data name="AssignPagesToRole" xml:space="preserve">
+    <value>Pages Assign Pages To Role</value>
+  </data>
+  <data name="AssignPagesToUser" xml:space="preserve">
+    <value>Page Assign Pages To User</value>
+  </data>
+  <data name="BuyBills" xml:space="preserve">
+    <value>Buy Bills</value>
+  </data>
+  <data name="BuyCreate" xml:space="preserve">
+    <value>Page Create Bill Buy </value>
+  </data>
+  <data name="BuyExist" xml:space="preserve">
+    <value>Page Bills Exist Products </value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="ChartAccountings" xml:space="preserve">
+    <value>Chart Accountings</value>
+  </data>
+  <data name="Cheque" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="Companies" xml:space="preserve">
+    <value>Companies</value>
+  </data>
+  <data name="ConfigGroupsSuperviers" xml:space="preserve">
+    <value>ConfigGroupsSuperviers</value>
+  </data>
+  <data name="CreateSupervier" xml:space="preserve">
+    <value>Page Create Orders Load Superviers</value>
+  </data>
+  <data name="Custody" xml:space="preserve">
+    <value>Custody</value>
+  </data>
+  <data name="Derivers" xml:space="preserve">
+    <value>Derivers</value>
+  </data>
+  <data name="EditSupervier" xml:space="preserve">
+    <value>EditSupervier</value>
+  </data>
+  <data name="ExpenseDebenture" xml:space="preserve">
+    <value>ExpenseDebenture</value>
+  </data>
+  <data name="ExpiredDate" xml:space="preserve">
+    <value>Review Dates Expires</value>
+  </data>
+  <data name="FatherAccounts" xml:space="preserve">
+    <value>Father Accounts</value>
+  </data>
+  <data name="GetTaskTrucksReport" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="GPAreas" xml:space="preserve">
+    <value>Prices Areas And Instance</value>
+  </data>
+  <data name="IndexComplete" xml:space="preserve">
+    <value>Page Show Orders WorkShop Compelete</value>
+  </data>
+  <data name="InventorXes" xml:space="preserve">
+    <value>Inventories</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="LimitionAccountings" xml:space="preserve">
+    <value>Limition Accountings</value>
+  </data>
+  <data name="Loans" xml:space="preserve">
+    <value>Adances</value>
+  </data>
+  <data name="MangerIndex" xml:space="preserve">
+    <value>MangerIndex</value>
+  </data>
+  <data name="MangerIndexSuperMenu" xml:space="preserve">
+    <value>MangerIndexSuperMenu</value>
+  </data>
+  <data name="Nationalities" xml:space="preserve">
+    <value>Nationalities</value>
+  </data>
+  <data name="OneIndex" xml:space="preserve">
+    <value>Page Show Derivers And Nationlity</value>
+  </data>
+  <data name="OrdersWorkShop" xml:space="preserve">
+    <value>Page Orders WorkShop</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="Personals" xml:space="preserve">
+    <value>Personals</value>
+  </data>
+  <data name="ReverseBills" xml:space="preserve">
+    <value>Reverse Bills</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roles Users</value>
+  </data>
+  <data name="SaleBills" xml:space="preserve">
+    <value>Sale Bills</value>
+  </data>
+  <data name="SaleCreate" xml:space="preserve">
+    <value>Page Create Sale Bill</value>
+  </data>
+  <data name="SettingsAccounts" xml:space="preserve">
+    <value>Settings Account</value>
+  </data>
+  <data name="SmartSearch" xml:space="preserve">
+    <value>Smart Search</value>
+  </data>
+  <data name="SupervierIndex" xml:space="preserve">
+    <value>Page Show Derivers For Superviers</value>
+  </data>
+  <data name="SupervierIndexLoad" xml:space="preserve">
+    <value>Page Show Orders Load Superviers</value>
+  </data>
+  <data name="SupervierIndexLoadFilters" xml:space="preserve">
+    <value>SupervierIndexLoadFilters</value>
+  </data>
+  <data name="SupervierIndexTrucks" xml:space="preserve">
+    <value>SupervierIndexTrucks</value>
+  </data>
+  <data name="SupervierLoadsFilters" xml:space="preserve">
+    <value>SupervierLoadsFilters</value>
+  </data>
+  <data name="TaskTrucks" xml:space="preserve">
+    <value>Orders Load</value>
+  </data>
+  <data name="Trucks" xml:space="preserve">
+    <value>Trucks</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="UserToGroup" xml:space="preserve">
+    <value>Page Assign User </value>
+  </data>
+  <data name="BalanceAudit" xml:space="preserve">
+    <value>Report Balance Audit</value>
+  </data>
+  <data name="CustodyReport" xml:space="preserve">
+    <value>Report Custodies</value>
+  </data>
+  <data name="DeriverReport" xml:space="preserve">
+    <value>Report Derivers</value>
+  </data>
+  <data name="ExpenseDebenturesReport" xml:space="preserve">
+    <value>Report Expense Debentures</value>
+  </data>
+  <data name="GetUsersGroup" xml:space="preserve">
+    <value>Page Add User To Groups Messages</value>
+  </data>
+  <data name="GroupMessages" xml:space="preserve">
+    <value>Group Messages Users</value>
+  </data>
+  <data name="IndexCompleteWorkShop" xml:space="preserve">
+    <value>Page Show Jobs Faults Compelete</value>
+  </data>
+  <data name="JobTasks" xml:space="preserve">
+    <value>Jobs Faults</value>
+  </data>
+  <data name="LoansEmployees" xml:space="preserve">
+    <value>Adances Employees</value>
+  </data>
+  <data name="ReceiptDebentures" xml:space="preserve">
+    <value>Receipt Debentures</value>
+  </data>
+  <data name="ReceiptDebenturesReport" xml:space="preserve">
+    <value>Report Receipt Debentures</value>
+  </data>
+  <data name="RportFaultTasks" xml:space="preserve">
+    <value>Report Faults WorkShop</value>
+  </data>
+  <data name="RPTBuyBills" xml:space="preserve">
+    <value>Report Buy Bills</value>
+  </data>
+  <data name="SaleBillsReport" xml:space="preserve">
+    <value>Report Sale Bills </value>
+  </data>
+  <data name="TaskTrucksReport" xml:space="preserve">
+    <value>Report Requests Shipping</value>
+  </data>
+  <data name="Technicians" xml:space="preserve">
+    <value>Technicians</value>
+  </data>
+  <data name="TechTasksReports" xml:space="preserve">
+    <value>Report Technicians</value>
+  </data>
+  <data name="TranactionReport" xml:space="preserve">
+    <value>Report Tranaction Stores</value>
+  </data>
+  <data name="TruckReport" xml:space="preserve">
+    <value>Report Trucks</value>
+  </data>
+  <data name="Accounting_Index" xml:space="preserve">
+    <value>Page System Accounting Main</value>
+  </data>
+  <data name="ActivitySystem" xml:space="preserve">
+    <value>Page Activity System</value>
+  </data>
+  <data name="AllDataForTruck" xml:space="preserve">
+    <value>Page Show All Data For Trucks</value>
+  </data>
+  <data name="ASA" xml:space="preserve">
+    <value>Page Verify Password</value>
+  </data>
+  <data name="CustodyEdit" xml:space="preserve">
+    <value>Page Edit Custodies</value>
+  </data>
+  <data name="DetailsPotos" xml:space="preserve">
+    <value>Page Details Photos Trucks</value>
+  </data>
+  <data name="ExpiredDeriversAndTrucks" xml:space="preserve">
+    <value>Page Review Dates Expired</value>
+  </data>
+  <data name="GroupsSuperviers" xml:space="preserve">
+    <value>Groups Superviers</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Main System</value>
+  </data>
+  <data name="Inventory_Index" xml:space="preserve">
+    <value>Page System Inventory Main</value>
+  </data>
+  <data name="Loan" xml:space="preserve">
+    <value>Page Create Adances</value>
+  </data>
+  <data name="LoanFilterEdit" xml:space="preserve">
+    <value>Page Edit Advances</value>
+  </data>
+  <data name="NotificationSystems" xml:space="preserve">
+    <value>Notifications System</value>
+  </data>
+  <data name="SuperIndex" xml:space="preserve">
+    <value>Page Show Groups Trucks In Superviers Menu</value>
+  </data>
+  <data name="SupervierIndexDerivers" xml:space="preserve">
+    <value>Page Show Derivers For Superviers</value>
+  </data>
+  <data name="Transport_Index" xml:space="preserve">
+    <value>Page System Transport Main</value>
+  </data>
+  <data name="UserToRole" xml:space="preserve">
+    <value>Page Add User To Role Promission</value>
+  </data>
+  <data name="WorkShop_Index" xml:space="preserve">
+    <value>Page System WorkShop Main</value>
+  </data>
+  <data name="HR_Index" xml:space="preserve">
+    <value>Page System HR Main</value>
+  </data>
+  <data name="Chambers" xml:space="preserve">
+    <value>Chambers</value>
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>Cities</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Countries</value>
+  </data>
+  <data name="Divisions" xml:space="preserve">
+    <value>Divisions</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Forms Members</value>
+  </data>
+  <data name="Governorates" xml:space="preserve">
+    <value>Governorates</value>
+  </data>
+  <data name="MemberDetails" xml:space="preserve">
+    <value>Members Details</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Contracts" xml:space="preserve">
+    <value>Contracts Employees</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Departments Adminstrative</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employees Details</value>
+  </data>
+  <data name="Membership_Index" xml:space="preserve">
+    <value>Page System Membership Main</value>
+  </data>
+  <data name="Approved_ChiefFinancialOfficer" xml:space="preserve">
+    <value>Page Approved Chief Financial Officer</value>
+  </data>
+  <data name="Approved_DirectorManag" xml:space="preserve">
+    <value> Page Approved Director Managers</value>
+  </data>
+  <data name="Approved_GeneralManag" xml:space="preserve">
+    <value>Page Approved General Managers</value>
+  </data>
+  <data name="Approved_SecretaryGeneral" xml:space="preserve">
+    <value>Page Approved Secretary General</value>
+  </data>
+  <data name="Renew" xml:space="preserve">
+    <value>Renew</value>
+  </data>
+  <data name="EmpsConfigSalaries" xml:space="preserve">
+    <value>Employees Configurations Salaries</value>
+  </data>
+  <data name="GroupConfigSalaryDetails" xml:space="preserve">
+    <value>Groups Configurations Salaries Employees</value>
+  </data>
+  <data name="CompleteReverse" xml:space="preserve">
+    <value>Page Complete Reverse Bill</value>
+  </data>
+  <data name="EmployeesSalariesReport" xml:space="preserve">
+    <value>Page Employees Salaries Report</value>
+  </data>
+  <data name="LimitionReports" xml:space="preserve">
+    <value>Page Limitions Accounts Report</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Users Manager</value>
+  </data>
+  <data name="PartReverse" xml:space="preserve">
+    <value>Page Part Reverse Bill</value>
+  </data>
+  <data name="Units" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="AnnualPlanTrainings" xml:space="preserve">
+    <value>Annual Plan Trainings</value>
+  </data>
+  <data name="EnterpriseBranches" xml:space="preserve">
+    <value>Enterprise Branches</value>
+  </data>
+  <data name="EvaluationEmpCenters" xml:space="preserve">
+    <value>Evaluation Employees Centers</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instructions</value>
+  </data>
+  <data name="InstructionsApplies" xml:space="preserve">
+    <value>Type Instructions</value>
+  </data>
+  <data name="Promotions" xml:space="preserve">
+    <value>Promotions</value>
+  </data>
+  <data name="ScientificDisciplines" xml:space="preserve">
+    <value>Scientific Disciplines</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>Sections Adminstrative</value>
+  </data>
+  <data name="TaskExternals" xml:space="preserve">
+    <value>Task Externals</value>
+  </data>
+  <data name="TrainingCenters" xml:space="preserve">
+    <value>Training Centers</value>
+  </data>
+  <data name="TrianingCourses" xml:space="preserve">
+    <value>Trianing Courses</value>
+  </data>
+  <data name="Universities" xml:space="preserve">
+    <value>Universities</value>
+  </data>
+  <data name="VacationApplies" xml:space="preserve">
+    <value>Type Vacation</value>
+  </data>
+  <data name="Vacations" xml:space="preserve">
+    <value>Vacations</value>
+  </data>
+</root>
